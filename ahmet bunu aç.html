@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <title>Key Giriş Sistemi</title>
+  <style>
+    body {
+      background-color: black;
+      color: white;
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin-top: 100px;
+    }
+    input, button {
+      padding: 10px;
+      font-size: 16px;
+      margin: 10px;
+    }
+    #resimLinki {
+      display: none;
+      margin-top: 20px;
+    }
+    a {
+      color: lime;
+      font-size: 18px;
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Giriş için Key gerekli</h1>
+  <input type="text" id="keyInput" placeholder="Key giriniz">
+  <br>
+  <button onclick="kontrolEt()">Giriş Yap</button>
+  <p id="mesaj"></p>
+
+  <div id="resimLinki">
+    <a href="https://cdn.discordapp.com/attachments/1377663009169604742/1378547340595691740/nie_bakyon_oe.png?ex=683cffc2&is=683bae42&hm=dd60ae6f64bb0b76973883c7676021c59a7a33724c4d8ca4f58ec86de13bd9e5&" target="_blank">
+      Buraya tıkla 😈
+    </a>
+  </div>
+
+  <script>
+    function kontrolEt() {
+      const dogruKey = "ABC123";
+      const girilenKey = document.getElementById("keyInput").value;
+      const mesaj = document.getElementById("mesaj");
+      const linkDiv = document.getElementById("resimLinki");
+
+      if (girilenKey === dogruKey) {
+        mesaj.innerText = "✔ Doğru key! Hoş geldin.";
+        mesaj.style.color = "lime";
+        linkDiv.style.display = "block"; // Linki göster
+      } else {
+        const mesajlar = [
+          "❌ Bu ne kardeşim?",
+          "🤡 Anahtar değil maymuncuk bu!",
+          "😵 Yok artık, bu kadar da değil!",
+          "👎 Deneme 437 başarısız oldu!"
+        ];
+        mesaj.innerText = mesajlar[Math.floor(Math.random() * mesajlar.length)];
+        mesaj.style.color = "red";
+        linkDiv.style.display = "none"; // Linki gizle
+      }
+    }
+  </script>
+
+</body>
+</html>
